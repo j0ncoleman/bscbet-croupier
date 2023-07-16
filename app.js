@@ -53,7 +53,7 @@ server.listen(port, hostname, async () => {
     if (!completingGames) {
       try {
         console.log("Checking for games");
-        var complete = await shaouldCompleteGames();
+        var complete = await shouldCompleteGames();
         if (complete) {
           console.log("Completing games");
           completeGames();
