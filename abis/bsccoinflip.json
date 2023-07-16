@@ -252,6 +252,13 @@
   },
   {
     "inputs": [],
+    "name": "_globalQueueSize",
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "_houseFeePercentage",
     "outputs": [{ "internalType": "uint8", "name": "", "type": "uint8" }],
     "stateMutability": "view",
