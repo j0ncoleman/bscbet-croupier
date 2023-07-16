@@ -1,0 +1,26 @@
+{
+  "name": "bscflip-croupier",
+  "version": "1.0.0",
+  "description": "BSCFlip bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinGAleman/bscflip-croupier.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinGAleman/bscflip-croupier/issues"
+  },
+  "homepage": "https://github.com/KevinGAleman/bscflip-croupier#readme",
+  "dependencies": {
+    "@ethersproject/providers": "^5.6.8",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.8",
+    "http": "^0.0.1-security"
+  }
+}
